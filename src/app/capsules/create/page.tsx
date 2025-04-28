@@ -76,10 +76,10 @@ export default function CreateCapsulePage() {
 	};
 
 	return (
-		<div className="min-h-screen flex items-center justify-center bg-gray-100 p-4 text-black">
+		<div className="min-h-screen flex items-center justify-center bg-gray-900 text-gray-200 pt-22">
 			<form
 				onSubmit={handleSubmit(onSubmitHandler)}
-				className="bg-white p-6 rounded shadow-md w-full max-w-lg"
+				className="bg-gray-800 p-6 rounded shadow-md w-full max-w-lg"
 			>
 				<h2 className="text-2xl mb-4">Create Time Capsule</h2>
 				{errorMsg && <p className="text-red-500 mb-4">{errorMsg}</p>}
